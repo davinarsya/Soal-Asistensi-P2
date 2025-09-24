@@ -2,13 +2,13 @@
 
 int main()
 {
-  char kalimat;
-  for(int = 0; i < 5)
+  char kalimat[50];
+  for(int i = 0; i < 5; i++);
     {
-      scanf("%d", kalimat[i]);
+      scanf("%s", kalimat);
     }
-    for(int = 0; i < 5)
+    for(int i = 0; i < 5; i++);
     {
-      printf("%d", kalimat[i]);
+      printf("%s", kalimat);
     }
 }
