@@ -4,9 +4,12 @@ int main()
 {
   int num;
   scanf("%d", num);
-  if(num%2)
+  if(num % 2 == 1)
   {
-    printf("Ganjil");
+    printf("Genap\n");
+  } else {
+  printf("Ganjil\n");
   }
-  printf("Genap");
+  return 0;
+
 }
